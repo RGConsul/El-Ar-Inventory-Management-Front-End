@@ -23,10 +23,7 @@
               </button>
             <!-- Offcanvas Trigger-->
           <a class="navbar-brand fw-bold text-uppercase me-auto" href="#">El-Ar Collections</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">          
+         
             <form class="d-flex ms-auto">
             <ul class="navbar-nav mb-2 mb-lg-0">
                 <li class="nav-item dropdown">
@@ -43,7 +40,7 @@
                 </li>
               </ul>
             </form>
-          </div>
+            
         </div>
       </nav>
     <!-- Navbar -->
@@ -159,7 +156,7 @@
                 <div class="col-md-12 fw-bold fs-3">Dashboard</div>
             </div>
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3 mb-3">
                     <div class="card text-white bg-primary h-100">
                         <div class="card-header">Header</div>
                         <div class="card-body">
@@ -169,8 +166,8 @@
                       </div>
                 </div>
 
-                <div class="col-md-3">
-                    <div class="card text-white bg-primary  h-100">
+                <div class="col-md-3 mb-3">
+                    <div class="card text-white bg-success  h-100">
                         <div class="card-header">Header</div>
                         <div class="card-body">
                           <h5 class="card-title">Primary card title</h5>
@@ -179,8 +176,8 @@
                       </div>
                 </div>
 
-                <div class="col-md-3">
-                    <div class="card text-white bg-primary  h-100">
+                <div class="col-md-3 mb-3">
+                    <div class="card text-white bg-warning  h-100">
                         <div class="card-header">Header</div>
                         <div class="card-body">
                           <h5 class="card-title">Primary card title</h5>
@@ -189,8 +186,8 @@
                       </div>
                 </div>
 
-                <div class="col-md-3">
-                    <div class="card text-white bg-primary  h-100">
+                <div class="col-md-3 mb-3">
+                    <div class="card text-white bg-danger  h-100">
                         <div class="card-header">Header</div>
                         <div class="card-body">
                           <h5 class="card-title">Primary card title</h5>
@@ -199,12 +196,52 @@
                       </div>
                 </div>
             </div>
+
+            <div class="row">
+
+                <div class="col-md-6">
+                    <div class="card1">
+                        <div class="card-header">
+                            Charts
+                        </div>
+                        <div class="cards-body">
+                            <canvas class="chart" width="400" height="200"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card2">
+                        <div class="card-header">
+                            Charts
+                        </div>
+                        <div class="cards-body">
+                            <canvas class="chart" width="400" height="200"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-header">Data Tables</div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
       </main>
     <!-- Dashboard -->
 
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/jquery-3.5.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.0.2/dist/chart.min.js"></script>
     <script src="./js/jquery.dataTables.min.js"></script>
     <script src="./js/dataTables.bootstrap5.min.js"></script>
     <script src="./js/script.js"></script>
