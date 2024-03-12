@@ -39,3 +39,50 @@ button {
     top: var(--topNavbarHeight);
   }
 }
+
+.login_logo{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+
+}
+
+.login_logo img{
+
+  height: 300px;
+  width: 300px;
+
+}
+
+.login_bg {
+  background-image: url('../Images/login_bg.png'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; 
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.login-btn{
+
+  border-color: rgb(194, 112, 210);
+  background-color: rgb(194, 112, 210);
+  color: #fff; 
+  width: 200px;
+  height: 40px;
+  border-radius: 30px;
+
+}
+
+.login-btn:hover{
+
+  background-color: white;
+  border: 1px solid rgb(194, 112, 210);
+  color: rgb(194, 112, 210);
+
+}
