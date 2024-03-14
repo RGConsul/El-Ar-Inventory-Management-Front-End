@@ -31,10 +31,10 @@
                     <i class="bi bi-person-fill"></i>
                   </a>
                   <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#"><i class="bi bi-gear"></i> Settings</a></li>
+                    <li><a class="dropdown-item" href="settings.html"><i class="bi bi-gear"></i> Settings</a></li>
                     <li><hr class="dropdown-divider"></li>
                     <li>
-                        <a class="dropdown-item" href="#"><i class="bi bi-box-arrow-in-right"></i> Logout</a>
+                        <a class="dropdown-item" href="login.html"><i class="bi bi-box-arrow-in-right"></i> Logout</a>
                     </li>
                   </ul>
                 </li>
@@ -53,6 +53,12 @@
             <div class="container-fluid">
             <div class="row">
                 <div class="col-md-8 card padding-y-sm card ">
+
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Search for a product" aria-label="Search for a product" aria-describedby="button-addon2">
+                        <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i class="bi bi-search"></i></button>
+                    </div>
+
                     <ul class="nav bg radius nav-pills nav-fill mb-3 bg" role="tablist">
                 <li class="nav-item">
                     <a class="nav-link active show" data-toggle="pill" href="#nav-tab-card">
@@ -75,148 +81,120 @@
             </ul>
             <span   id="items">
             <div class="row">
-            <div class="col-md-3">
-                <figure class="card card-product">
-                    <span class="badge-new"> NEW </span>
-                    <div class="img-wrap"> 
-                        <img src="assets/images/items/3.jpg">
-                        <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
-                    </div>
-                    <figcaption class="info-wrap">
-                        <a href="#" class="title">Good item name</a>
-                        <div class="action-wrap">
-                            <a href="#" class="btn btn-primary btn-sm float-right"> <i class="fa fa-cart-plus"></i> Add </a>
+                <div class="col-md-3">
+                    <figure class="card card-product">
+                        <span class="badge-new my-2"> NEW </span>
+                
+                        <figcaption class="info-wrap d-flex flex-column justify-content-between">
                             <div class="price-wrap h5">
                                 <span class="price-new">$1280</span>
                             </div> <!-- price-wrap.// -->
-                        </div> <!-- action-wrap -->
-                    </figcaption>
-                </figure> <!-- card // -->
-            </div> <!-- col // -->
-            <div class="col-md-3">
-                <figure class="card card-product">
-                    <span class="badge-new"> NEW </span>
-                    <div class="img-wrap"> <img src="assets/images/items/4.jpg">
-                    <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
-                    </div>
-                    <figcaption class="info-wrap">
-                        <a href="#" class="title">The name of product</a>
-                        <div class="action-wrap">
-                            <a href="#" class="btn btn-primary btn-sm float-right"> <i class="fa fa-cart-plus"></i> Add </a>
+                            <div class="action-wrap text-center">
+                                <a href="#" class="btn btn-primary btn-sm mt-auto"> <i class="fa fa-cart-plus"></i> Add </a>
+                            </div> <!-- action-wrap -->
+                        </figcaption>
+                    </figure> <!-- card // -->
+                </div> <!-- col // -->
+                <div class="col-md-3">
+                    <figure class="card card-product">
+                        <span class="badge-new my-2"> NEW </span>
+                
+                        <figcaption class="info-wrap d-flex flex-column justify-content-between">
                             <div class="price-wrap h5">
-                                <span class="price-new">$280</span>
+                                <span class="price-new">$1280</span>
                             </div> <!-- price-wrap.// -->
-                        </div> <!-- action-wrap -->
-                    </figcaption>
-                </figure> <!-- card // -->
-            </div> <!-- col // -->
-            <div class="col-md-3">
-                <figure class="card card-product">
-                    <span class="badge-new"> NEW </span>
-                    <div class="img-wrap"> <img src="assets/images/items/5.jpg">
-                    <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
-                    </div>
-                    <figcaption class="info-wrap">
-                        <a href="#" class="title">Name of product</a>
-                        <div class="action-wrap">
-                            <a href="#" class="btn btn-primary btn-sm float-right"> <i class="fa fa-cart-plus"></i> Add </a>
+                            <div class="action-wrap text-center">
+                                <a href="#" class="btn btn-primary btn-sm mt-auto"> <i class="fa fa-cart-plus"></i> Add </a>
+                            </div> <!-- action-wrap -->
+                        </figcaption>
+                    </figure> <!-- card // -->
+                </div> <!-- col // -->
+                <div class="col-md-3">
+                    <figure class="card card-product">
+                        <span class="badge-new my-2"> NEW </span>
+                
+                        <figcaption class="info-wrap d-flex flex-column justify-content-between">
                             <div class="price-wrap h5">
-                                <span class="price-new">$280</span>
-                                <del class="price-old">$1980</del>
+                                <span class="price-new">$1280</span>
                             </div> <!-- price-wrap.// -->
-                        </div> <!-- action-wrap -->
-                    </figcaption>
-                </figure> <!-- card // -->
-            </div> <!-- col // -->
-            <div class="col-md-3">
-                <figure class="card card-product">
-                    <span class="badge-new"> NEW </span>
-                    <div class="img-wrap"> <img src="assets/images/items/6.jpg">
-                        <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
-                    </div>
-                    <figcaption class="info-wrap">
-                        <a href="#" class="title">The name of product</a>
-                        <div class="action-wrap">
-                            <a href="#" class="btn btn-primary btn-sm float-right"> <i class="fa fa-cart-plus"></i> Add </a>
+                            <div class="action-wrap text-center">
+                                <a href="#" class="btn btn-primary btn-sm mt-auto"> <i class="fa fa-cart-plus"></i> Add </a>
+                            </div> <!-- action-wrap -->
+                        </figcaption>
+                    </figure> <!-- card // -->
+                </div> <!-- col // -->
+                <div class="col-md-3">
+                    <figure class="card card-product">
+                        <span class="badge-new my-2"> NEW </span>
+                
+                        <figcaption class="info-wrap d-flex flex-column justify-content-between">
                             <div class="price-wrap h5">
-                                <span class="price-new">$280</span>
+                                <span class="price-new">$1280</span>
                             </div> <!-- price-wrap.// -->
-                        </div> <!-- action-wrap -->
-                    </figcaption>
-                </figure> <!-- card // -->
-            </div> <!-- col // -->
+                            <div class="action-wrap text-center">
+                                <a href="#" class="btn btn-primary btn-sm mt-auto"> <i class="fa fa-cart-plus"></i> Add </a>
+                            </div> <!-- action-wrap -->
+                        </figcaption>
+                    </figure> <!-- card // -->
+                </div> <!-- col // -->
             </div> <!-- row.// -->
             <div class="row">
-            <div class="col-md-3">
-                <figure class="card card-product">
-                    <span class="badge-new"> NEW </span>
-                    <div class="img-wrap"> 
-                        <img src="assets/images/items/1.jpg">
-                        <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
-                    </div>
-                    <figcaption class="info-wrap">
-                        <a href="#" class="title">Good item name</a>
-                        <div class="action-wrap">
-                            <a href="#" class="btn btn-primary btn-sm float-right"> <i class="fa fa-cart-plus"></i> Add </a>
+                <div class="col-md-3">
+                    <figure class="card card-product">
+                        <span class="badge-new my-2"> NEW </span>
+                
+                        <figcaption class="info-wrap d-flex flex-column justify-content-between">
                             <div class="price-wrap h5">
                                 <span class="price-new">$1280</span>
                             </div> <!-- price-wrap.// -->
-                        </div> <!-- action-wrap -->
-                    </figcaption>
-                </figure> <!-- card // -->
-            </div> <!-- col // -->
-            <div class="col-md-3">
-                <figure class="card card-product">
-                    <span class="badge-new"> NEW </span>
-                    <div class="img-wrap"> <img src="assets/images/items/2.jpg">
-                    <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
-                    </div>
-                    <figcaption class="info-wrap">
-                        <a href="#" class="title">The name of product</a>
-                        <div class="action-wrap">
-                            <a href="#" class="btn btn-primary btn-sm float-right"> <i class="fa fa-cart-plus"></i> Add </a>
+                            <div class="action-wrap text-center">
+                                <a href="#" class="btn btn-primary btn-sm mt-auto"> <i class="fa fa-cart-plus"></i> Add </a>
+                            </div> <!-- action-wrap -->
+                        </figcaption>
+                    </figure> <!-- card // -->
+                </div> <!-- col // -->
+                <div class="col-md-3">
+                    <figure class="card card-product">
+                        <span class="badge-new my-2"> NEW </span>
+                
+                        <figcaption class="info-wrap d-flex flex-column justify-content-between">
                             <div class="price-wrap h5">
-                                <span class="price-new">$280</span>
+                                <span class="price-new">$1280</span>
                             </div> <!-- price-wrap.// -->
-                        </div> <!-- action-wrap -->
-                    </figcaption>
-                </figure> <!-- card // -->
-            </div> <!-- col // -->
-            <div class="col-md-3">
-                <figure class="card card-product">
-                    <span class="badge-new"> NEW </span>
-                    <div class="img-wrap"> <img src="assets/images/items/7.jpg">
-                    <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
-                    </div>
-                    <figcaption class="info-wrap">
-                        <a href="#" class="title">Name of product</a>
-                        <div class="action-wrap">
-                            <a href="#" class="btn btn-primary btn-sm float-right"> <i class="fa fa-cart-plus"></i> Add </a>
+                            <div class="action-wrap text-center">
+                                <a href="#" class="btn btn-primary btn-sm mt-auto"> <i class="fa fa-cart-plus"></i> Add </a>
+                            </div> <!-- action-wrap -->
+                        </figcaption>
+                    </figure> <!-- card // -->
+                </div> <!-- col // -->
+                <div class="col-md-3">
+                    <figure class="card card-product">
+                        <span class="badge-new my-2"> NEW </span>
+                
+                        <figcaption class="info-wrap d-flex flex-column justify-content-between">
                             <div class="price-wrap h5">
-                                <span class="price-new">$280</span>
-                                <del class="price-old">$1980</del>
+                                <span class="price-new">$1280</span>
                             </div> <!-- price-wrap.// -->
-                        </div> <!-- action-wrap -->
-                    </figcaption>
-                </figure> <!-- card // -->
-            </div> <!-- col // -->
-            <div class="col-md-3">
-                <figure class="card card-product">
-                    <span class="badge-new"> NEW </span>
-                    <div class="img-wrap"> <img src="assets/images/items/comp.png">
-                        <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
-                    </div>
-                    <figcaption class="info-wrap">
-                        <a href="#" class="title">The name of product</a>
-                        <div class="action-wrap">
-                            <a href="#" class="btn btn-primary btn-sm float-right"> <i class="fa fa-cart-plus"></i> Add </a>
+                            <div class="action-wrap text-center">
+                                <a href="#" class="btn btn-primary btn-sm mt-auto"> <i class="fa fa-cart-plus"></i> Add </a>
+                            </div> <!-- action-wrap -->
+                        </figcaption>
+                    </figure> <!-- card // -->
+                </div> <!-- col // -->
+                <div class="col-md-3">
+                    <figure class="card card-product">
+                        <span class="badge-new my-2"> NEW </span>
+                
+                        <figcaption class="info-wrap d-flex flex-column justify-content-between">
                             <div class="price-wrap h5">
-                                <span class="price-new">$280</span>
+                                <span class="price-new">$1280</span>
                             </div> <!-- price-wrap.// -->
-                        </div> <!-- action-wrap -->
-                    </figcaption>
-                </figure> <!-- card // -->
-            </div> <!-- col // -->
+                            <div class="action-wrap text-center">
+                                <a href="#" class="btn btn-primary btn-sm mt-auto"> <i class="fa fa-cart-plus"></i> Add </a>
+                            </div> <!-- action-wrap -->
+                        </figcaption>
+                    </figure> <!-- card // -->
+                </div> <!-- col // -->
             </div> <!-- row.// -->
             </span>
                 </div>
@@ -236,7 +214,6 @@
             <tr>
                 <td>
             <figure class="media">
-                <div class="img-wrap"><img src="assets/images/items/1.jpg" class="img-thumbnail img-xs"></div>
                 <figcaption class="media-body">
                     <h6 class="title text-truncate">Product name </h6>
                 </figcaption>
@@ -244,9 +221,9 @@
                 </td>
                 <td class="text-center"> 
                     <div class="m-btn-group m-btn-group--pill btn-group mr-2" role="group" aria-label="...">
-                                                                                    <button type="button" class="m-btn btn btn-default"><i class="fa fa-minus"></i></button>
+                                                                                    <button type="button" class="m-btn btn btn-default"><i class="bi bi-dash"></i></button>
                                                                                     <button type="button" class="m-btn btn btn-default" disabled>3</button>
-                                                                                    <button type="button" class="m-btn btn btn-default"><i class="fa fa-plus"></i></button>
+                                                                                    <button type="button" class="m-btn btn btn-default"><i class="bi bi-plus"></i></button>
                                                                                 </div>
                 </td>
                 <td> 
@@ -255,13 +232,12 @@
                     </div> <!-- price-wrap .// -->
                 </td>
                 <td class="text-right"> 
-                <a href="" class="btn btn-outline-danger"> <i class="fa fa-trash"></i></a>
+                <a href="" class="btn btn-outline-danger"> <i class="bi bi-trash3"></i></a>
                 </td>
             </tr>
             <tr>
                 <td>
             <figure class="media">
-                <div class="img-wrap"><img src="assets/images/items/5.jpg" class="img-thumbnail img-xs"></div>
                 <figcaption class="media-body">
                     <h6 class="title text-truncate">Product name  </h6>
                 </figcaption>
@@ -269,9 +245,9 @@
                 </td>
                 <td class="text-center"> 
                             <div class="m-btn-group m-btn-group--pill btn-group mr-2" role="group" aria-label="...">
-                                                                                    <button type="button" class="m-btn btn btn-default"><i class="fa fa-minus"></i></button>
+                                                                                    <button type="button" class="m-btn btn btn-default"><i class="bi bi-dash"></i></button>
                                                                                     <button type="button" class="m-btn btn btn-default" disabled>1</button>
-                                                                                    <button type="button" class="m-btn btn btn-default"><i class="fa fa-plus"></i></button>
+                                                                                    <button type="button" class="m-btn btn btn-default"><i class="bi bi-plus"></i></button>
                                                                                 </div>
                 </td>
                 <td> 
@@ -280,13 +256,12 @@
                     </div> <!-- price-wrap .// -->
                 </td>
                 <td class="text-right"> 
-                <a href="" class="btn btn-outline-danger btn-round"> <i class="fa fa-trash"></i></a>
+                <a href="" class="btn btn-outline-danger btn-round"> <i class="bi bi-trash3"></i></a>
                 </td>
             </tr>
             <tr>
                 <td>
             <figure class="media">
-                <div class="img-wrap"><img src="assets/images/items/4.jpg" class="img-thumbnail img-xs"></div>
                 <figcaption class="media-body">
                     <h6 class="title text-truncate">Product name  </h6>
                 </figcaption>
@@ -294,9 +269,9 @@
                 </td>
                 <td class="text-center"> 
                             <div class="m-btn-group m-btn-group--pill btn-group mr-2" role="group" aria-label="...">
-                                                                                    <button type="button" class="m-btn btn btn-default"><i class="fa fa-minus"></i></button>
+                                                                                    <button type="button" class="m-btn btn btn-default"><i class="bi bi-dash"></i></button>
                                                                                     <button type="button" class="m-btn btn btn-default" disabled>5</button>
-                                                                                    <button type="button" class="m-btn btn btn-default"><i class="fa fa-plus"></i></button>
+                                                                                    <button type="button" class="m-btn btn btn-default"><i class="bi bi-plus"></i></button>
                                                                                 </div>
                 </td>
                 <td> 
@@ -305,13 +280,12 @@
                     </div> <!-- price-wrap .// -->
                 </td>
                 <td class="text-right"> 
-                    <a href="" class="btn btn-outline-danger btn-round"> <i class="fa fa-trash"></i></a>
+                    <a href="" class="btn btn-outline-danger btn-round"> <i class="bi bi-trash3"></i></a>
                 </td>
             </tr>
             <tr>
                 <td>
             <figure class="media">
-                <div class="img-wrap"><img src="assets/images/items/2.jpg" class="img-thumbnail img-xs"></div>
                 <figcaption class="media-body">
                     <h6 class="title text-truncate">Product name  </h6>
                 </figcaption>
@@ -319,9 +293,9 @@
                 </td>
                 <td class="text-center"> 
                             <div class="m-btn-group m-btn-group--pill btn-group mr-2" role="group" aria-label="...">
-                                                                                    <button type="button" class="m-btn btn btn-default"><i class="fa fa-minus"></i></button>
+                                                                                    <button type="button" class="m-btn btn btn-default"><i class="bi bi-dash"></i></button>
                                                                                     <button type="button" class="m-btn btn btn-default" disabled>2</button>
-                                                                                    <button type="button" class="m-btn btn btn-default"><i class="fa fa-plus"></i></button>
+                                                                                    <button type="button" class="m-btn btn btn-default"><i class="bi bi-plus"></i></button>
                                                                                 </div>
                 </td>
                 <td> 
@@ -330,13 +304,12 @@
                     </div> <!-- price-wrap .// -->
                 </td>
                 <td class="text-right"> 
-                    <a href="" class="btn btn-outline-danger btn-round"> <i class="fa fa-trash"></i></a>
+                    <a href="" class="btn btn-outline-danger btn-round"> <i class="bi bi-trash3"></i></a>
                 </td>
             </tr>
             <tr>
                 <td>
             <figure class="media">
-                <div class="img-wrap"><img src="assets/images/items/3.jpg" class="img-thumbnail img-xs"></div>
                 <figcaption class="media-body">
                     <h6 class="title text-truncate">Product name  </h6>
                 </figcaption>
@@ -344,9 +317,9 @@
                 </td>
                 <td class="text-center"> 
                             <div class="m-btn-group m-btn-group--pill btn-group mr-2" role="group" aria-label="...">
-                                                                                    <button type="button" class="m-btn btn btn-default"><i class="fa fa-minus"></i></button>
+                                                                                    <button type="button" class="m-btn btn btn-default"><i class="bi bi-dash"></i></button>
                                                                                     <button type="button" class="m-btn btn btn-default" disabled>1</button>
-                                                                                    <button type="button" class="m-btn btn btn-default"><i class="fa fa-plus"></i></button>
+                                                                                    <button type="button" class="m-btn btn btn-default"><i class="bi bi-plus"></i></button>
                                                                                 </div>
                 </td>
                 <td> 
@@ -355,7 +328,7 @@
                     </div> <!-- price-wrap .// -->
                 </td>
                 <td class="text-right"> 
-                    <a href="" class="btn btn-outline-danger btn-round"> <i class="fa fa-trash"></i></a>
+                    <a href="" class="btn btn-outline-danger btn-round"> <i class="bi bi-trash3"></i></a>
                 </td>
             </tr>
             </tbody>
